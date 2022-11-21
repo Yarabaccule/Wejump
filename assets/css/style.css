@@ -1,0 +1,140 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+
+}
+
+.menu-2{
+    border: 1px solid #E2DEDC;
+}
+
+.menu-2 a{
+    color: black;
+    text-decoration:none
+}
+
+.menu-2 h1{
+    color: #ED1A39;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top:13px;
+    margin-botton:14px
+}
+
+.menu-2 h2{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top:11px;
+    margin-botton:11px
+}
+
+.sapato-cores button{
+    margin:5px
+}
+
+.cor-vermelha{
+    background-color:#CB0D1F !important;
+    height: 24px;
+    border:none !important;
+}
+
+.cor-laranja{
+    background-color:#F26324 !important;
+    height: 24px;
+    border:none !important;
+}
+
+.cor-verde-agua{
+    background-color:#27A3A9 !important;
+    height: 24px;
+    border:none !important;
+}
+
+.produtos-inicio{
+    font-size: 32px;
+    color: #ED1A39;
+    margin-top:61px
+}
+
+.bi-grid-3x3-gap-fill{
+    margin:12px
+}
+
+.btn-group .btn-s{
+    color:#808185;
+    font-size:11px;
+    border:none
+}
+
+.btn-group .btn-tipo{
+    border:1px solid #E2DEDC;
+    font-size:14px;
+}
+
+.produtos-nav{
+    margin-top:-25px
+}
+
+.btn-primary{
+    background-color:#00A8A9 !important;
+    color:#fff;
+    border: none !important;
+    margin-bottom:20px
+
+}
+
+.produtos img{
+    border: 1px solid #E2DEDC;
+    height:211px !important; 
+    width:399px !important; 
+}
+
+.produtos-titulo{
+    color: #626262;
+    font-size:16px;
+    height:50px;
+    margin-top:17px;
+}
+
+.preco{
+    font-size:21px
+}
+
+.produtos-diversos button{
+    margin-top:10px;
+
+}
+
+.sapato-container-fluid{
+    margin-bottom:37px;
+}
+
+.produtos-btn{
+    margin-top:10px;
+}
+
+.produtos-list{
+    margin-top:27px;
+    margin-bottom:22px
+
+}
+
+.produtos-list a{
+    text-decoration: none
+}
+
+
+
+.pagination li a{
+    border:none !important;
+    color:black !important;
+}
+
+.pagination{
+    margin-top:37px;
+
+}
+

@@ -1,0 +1,62 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+.menu{
+    background-color: #CB0D1F;
+    height: 54px;
+    font-size:90%
+}
+
+.menu li a{
+    color:white;
+    text-decoration:none;
+    padding-right:40px
+}
+
+.menu li a:hover{
+    color:white;
+}
+
+@media screen and (max-width: 1000px){
+
+    .menu li a{
+        padding-right:30px
+    }
+
+} 
+
+@media screen and (max-width: 780px){
+
+    .menu{
+        font-size:85%;
+    }
+
+    .menu li a{
+        padding-right:0;
+    }
+
+} 
+
+@media screen and (max-width: 550px){
+
+    .menu{
+        font-size:70%;
+        background:none;
+    }
+
+    .menu li a{
+        padding-right:0;
+    }
+
+    .menu .collapse{
+        background:#CB0D1F
+    }
+
+    .menu .navbar-nav{
+        margin:5px;
+        margin-left:10px; 
+    }
+
+} 
