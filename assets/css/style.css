@@ -4,31 +4,185 @@
 }
 
 body{
-
+  font-family:  Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif;
 }
 
-.menu-2{
-    border: 1px solid #E2DEDC;
+.container-fluid{
+    width:100%;
 }
 
-.menu-2 a{
-    color: black;
-    text-decoration:none
+.container{
+    width:85%;
+    margin: auto;
 }
 
-.menu-2 h1{
-    color: #ED1A39;
-    font-size: 24px;
-    font-weight: bold;
-    margin-top:13px;
-    margin-botton:14px
+.nav{
+    display:-ms-flexbox;
+    display:flex;
+    flex-wrap:wrap;
+    padding-left:0;
+    margin-bottom:0;
+    list-style:none
 }
 
-.menu-2 h2{
-    font-size: 18px;
-    font-weight: bold;
-    margin-top:11px;
-    margin-botton:11px
+.navbar{
+    position:relative;
+    display:flex;
+    flex-wrap:wrap;
+    align-items:center;
+    justify-content:space-between;
+    padding:.5rem 1rem;
+}
+
+.navbar-brand{
+    display:inline-block;
+    padding-top:.3125rem;
+    padding-bottom:.3125rem;
+    margin-right:1rem;
+    font-size:1.25rem;
+    line-height:inherit;
+    white-space:nowrap
+}
+
+.btn-sm{
+    padding:.25rem .5rem;
+    font-size:.875rem;
+    line-height:1.5;
+    border-radius:.2rem
+}
+
+.dropdown-toggle{
+    white-space:nowrap
+}
+
+.dropdown-toggle-split{
+    padding-right:.5625rem;
+    padding-left:.5625rem
+}
+
+.dropdown-menu{
+    top:0;
+    right:100%;
+    left:auto;
+    margin-top:0;
+    margin-right:.125rem
+}
+
+.dropdown-item{
+    display:block;
+    width:100%;
+    padding:.25rem 1.5rem;
+    clear:both;
+    font-weight:400;
+    color:#212529;
+    text-align:inherit;
+    white-space:nowrap;
+    background-color:transparent;
+    border:0
+}
+
+.col{
+    flex-basis:0;
+    flex-grow:1;
+    min-width:0;
+    max-width:100%
+}
+
+.pagination{
+    display:flex;
+    padding-left:0;
+    list-style:none;
+    border-radius:.25rem
+}
+
+.justify-content-center{
+    justify-content:center!important
+}
+
+
+.container-fluid{
+display:flex;
+flex-wrap:wrap;
+align-items:center;
+justify-content:space-between
+}
+
+.navbar-collapse{
+    flex-basis:100%;
+    flex-grow:1;
+    align-items:center
+}
+
+.navbar-nav{
+    display:flex;
+    flex-direction:column;
+    padding-left:0;
+    margin-bottom:0;
+    list-style:none
+}
+
+.nav-link{
+    display:block;
+    padding:.5rem 1rem
+}
+
+.row{
+    display:flex;
+    flex-wrap:wrap;
+    margin-right:-15px;
+}
+
+.col-md-3{
+    flex:0 0 25%;
+    max-width:25%
+}
+
+.col-md-9{
+    flex:0 0 75%;
+    max-width:75%
+}
+
+.btn-toolbar{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:flex-start
+}
+
+.btn-group{
+    position:relative;
+    display:inline-flex;
+    vertical-align:middle
+}
+
+.btn{
+    display:inline-block;
+    font-weight:400;
+    text-align:center;
+    vertical-align:middle;
+}
+
+.btn-toolbar{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:flex-start
+}
+
+.col-md-9{
+    flex:0 0 75%;
+    max-width:75%
+}
+
+.align-items-center{
+    align-items:center!important;
+}
+
+
+.d-flex{
+    display:flex!important
+}
+
+.justify-content-end{
+    justify-content:flex-end!important
 }
 
 .sapato-cores button{
@@ -37,18 +191,21 @@ body{
 
 .cor-vermelha{
     background-color:#CB0D1F !important;
+    width:40px;
     height: 24px;
     border:none !important;
 }
 
 .cor-laranja{
     background-color:#F26324 !important;
+    width:40px;
     height: 24px;
     border:none !important;
 }
 
 .cor-verde-agua{
     background-color:#27A3A9 !important;
+    width:40px;
     height: 24px;
     border:none !important;
 }
@@ -59,20 +216,6 @@ body{
     margin-top:61px
 }
 
-.bi-grid-3x3-gap-fill{
-    margin:12px
-}
-
-.btn-group .btn-s{
-    color:#808185;
-    font-size:11px;
-    border:none
-}
-
-.btn-group .btn-tipo{
-    border:1px solid #E2DEDC;
-    font-size:14px;
-}
 
 .produtos-nav{
     margin-top:-25px
@@ -87,9 +230,7 @@ body{
 }
 
 .produtos img{
-    border: 1px solid #E2DEDC;
-    height:211px !important; 
-    width:399px !important; 
+    border: 1px solid #E2DEDC; 
 }
 
 .produtos-titulo{
@@ -137,4 +278,16 @@ body{
     margin-top:37px;
 
 }
+
+@media screen and (max-width: 750px){
+    .col-md-3{
+        flex:100%;
+        max-width:100%
+    }
+    .col-md-9{
+        flex:100%;
+        max-width:100%;
+    }
+}
+
 

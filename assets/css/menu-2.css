@@ -1,0 +1,30 @@
+.menu-2{
+    border: 1px solid #E2DEDC;
+    padding-top:30px;
+    padding-left:30px
+}
+
+.menu-2 a{
+    color: black;
+    text-decoration:none
+}
+
+.menu-2 h1{
+    color: #ED1A39;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top:13px;
+    margin-botton:14px
+}
+
+.menu-2 h2{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top:11px;
+    margin-botton:11px
+}
+
+@media screen and (max-width: 750px){
+    .col-md-3{
+    }
+}

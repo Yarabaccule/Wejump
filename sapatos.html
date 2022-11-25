@@ -9,8 +9,11 @@
     <link rel='stylesheet' type='text/css' media='screen' href='./assets/css/footer.css'>
     <link rel='stylesheet' type='text/css' media='screen' href='./assets/css/menu.css'>
     <link rel='stylesheet' type='text/css' media='screen' href='./assets/css/acess.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='./assets/css/dropdown.css'>
     <link rel='stylesheet' type='text/css' media='screen' href='./assets/css/header.css'>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel='stylesheet' type='text/css' media='screen' href='./assets/css/produtos.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='./assets/css/toggle.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='./assets/css/menu-2.css'>
     <script src='main.js'></script>
 
     <!-- Favicons -->
@@ -36,27 +39,27 @@
     <nav class="container-fluid nav-produtos acess">
         <section class="container">
             <ul class="nav d-flex justify-content-end align-items-center">
-                <li class="nav-item">
+                <li>
                 <a href="#" class="text-menu">Acesse sua conta</a>
                 </li>
-                <li class="nav-item">
+                <li>
                     ou
                 </li>                
-                <li class="nav-item">
+                <li>
                     <a href="#" class="text-menu">Cadastre-se</a>
                 </li>
             </ul>
         </section>
     </nav>
     <header class="container-fluid">
+        
         <section class="container">
             <nav class="navbar navbar-expand-lg navbar-light">
                 <div class="container-fluid">
-                <a class="navbar-brand" href="#"><img src="./assets/images/webjump-compass-2x-min.png" alt="logo - webjump" width="80%"></a>
+                <a href="#"><img class="logo" src="./assets/images/webjump-compass-2x-min.png" alt="logo - webjump"></a>
                 </a>
                     <form class="d-flex">
-                    <input>
-                    <button type="submit">BUSCAR</button>
+                    <input><button type="submit">BUSCAR</button>
                     </form>
                 </div>
                 </div>
@@ -64,26 +67,26 @@
         </section>
     </header>
     <nav class="container-fluid nav-produtos d-flex align-items-center menu">
-        <section class="container"> 
-            <ul class="nav">
-                <li class="nav-link">
-                <a href="./index.html" class="text-menu">PÁGINA INICIAL</a>
-                </li>
-                <li class="nav-link">
-                  <a href="./camisetas.html" class="text-menu">CAMISETAS</a>
-                </li>
-                <li class="nav-link">
-                    <a href="./calcas.html" class="text-menu">CALÇAS</a>
-                  </li>
-                  <li class="nav-link">
-                    <a href="./sapatos.html" class="text-menu">SAPATOS</a>
-                  </li>
-                  <li class="nav-link">
-                    <a href="#" class="text-menu">CONTATO</a>
-                  </li>
-            </ul>
-        </section>
-    </nav>
+      <section class="container"> 
+        <div class="nav-toggle">
+            <div class="container-toggle">
+              <label for="toggle">
+                <img class="material-icons" src="./assets/images/menu-toggle.png">
+              </label>
+              <input type="checkbox" id="toggle">
+              <nav class="menu-toggle align-items-center">
+                <ul>
+                  <li><a href="./index.html" class="text-menu">PÁGINA INICIAL</a></li>
+                  <li><a href="./camisetas.html" class="text-menu">CAMISETAS</a></li>
+                  <li><a href="./calcas.html" class="text-menu">CALÇAS</a></li>
+                  <li><a href="./sapatos.html" class="text-menu">SAPATOS</a></li>
+                  <li><a href="#" class="text-menu">CONTATO</a></li>
+                </ul>
+              </nav>
+            </div>
+        </div>
+      </section>
+  </nav>
     <main>
         <section class="container">
             <section class="d-flex produtos-list ">
@@ -91,7 +94,7 @@
                 <a class="produtos-list-2" style="color:#CB0D1F" href="#">Sapatos</a>
             </section>
             <section class="row">
-                <article class="col-md-2 menu-2">
+                <article class="col-md-3 menu-2">
                     <h1>FILTRE POR</h1>
                     <h2>CATEGORIAS</h2>
                     <a href="#">• Roupas</a><br>
@@ -100,14 +103,14 @@
                     <h2>CORES</h2>
                     <section class="sapato-cores"> 
                         <div class="btn-toolbar">
-                            <div class="btn-group" role="group" aria-label="Third group">
-                              <button type="button" class="btn btn-info  cor-vermelha "></button>
+                            <div class="btn-group">
+                              <button type="button" class="cor-vermelha"></button>
                             </div>
-                            <div class="btn-group" role="group" aria-label="Third group">
-                                <button type="button" class="btn btn-info cor-laranja"></button>
+                            <div class="btn-group">
+                                <button type="button" class="cor-laranja"></button>
                               </div>
-                              <div class="btn-group" role="group" aria-label="Third group">
-                                <button type="button" class="btn btn-info cor-verde-agua"></button>
+                              <div class="btn-group">
+                                <button type="button" class="cor-verde-agua"></button>
                               </div>
                           </div>
                     </section>
@@ -121,7 +124,7 @@
                     <section class="container">
                         <p class="produtos-inicio">Sapatos</p>
                         <hr>
-                            <nav class="navbar navbar-expand-lg navbar-light produtos-nav">
+                            <nav class="navbar produtos-nav">
                                 <div class="container-fluid sapato-container-fluid">                                    
                                         <section class="navbar-brand" href="#">
                                         <svg xmlns="http://www.w3.org/2000/svg" style="color:#ED1A39" width="20" height="20" fill="currentColor" class="bi bi-grid-3x3-gap-fill" viewBox="0 0 16 16">
@@ -134,111 +137,107 @@
 
                                     <div class="d-flex justify-content align-items-center">
                                         <div class="btn-group">
-                                        <button type="button" class="btn btn-s">ORDENAR POR</button>
-                                          <button type="button" class="btn btn-tipo">Maior preço</button>
-                                          <button type="button" class="btn btn-tipo dropdown-toggle 
-                                          dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
-
-                                          </button>
-                                          <ul class="dropdown-menu">
-                                            <li><a class="dropdown-item" href="#">Menor preço</a></li>
-                                            <li><a class="dropdown-item" href="#">Maior preço</a></li>
-                                            <li><a class="dropdown-item" href="#">Mais vendido</a></li>
-                                            <li><a class="dropdown-item" href="#">Lançamentos</a></li>
-                                          </ul>
+                                        <button type="button" class="btn-false">ORDENAR POR</button>
+                                            <div class="dropdown">
+                                                <button class="dropbtn">Maior preço ▼</button>
+                                                <div class="dropdown-content">
+                                                <a href="#">Menor preço</a>
+                                                <a href="#">Mais procurados</a>
+                                                <a href="#">Promoção</a>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
                                 </div>
                             </nav>
                         </section>
                         <center>
-                        <article class="row row-cols-lg-4 row-cols-md-3 row-cols-2 ">
-                            <section class="produtos col">
-                                <img src="./assets/images/shoes-1.jpg" class="img-fluid" alt="cropped rosa">
+                        <article class="row row-cols ">
+                            <section class="produtos">
+                                <img src="./assets/images/shoes-1.jpg" class="img-fluid">
                             <article class="produtos-itens">
                                 <p class="produtos-titulo">TÊNIS ADIDAS</p>
                             
                                 <b class="preco">R$299,90</b>
                                 <div class="d-grid gap-2">
-                                    <button class="btn btn-primary" type="button">COMPRAR</button>
+                                    <button class="btn-comprar" type="button">COMPRAR</button>
                                 </div>
                             </article>
                             </section>
-                            <section class="produtos col">
-                                <img src="./assets/images/shoes-10.jpg" class="img-fluid" alt="camiseta manga comprida">
+                            <section class="produtos">
+                                <img src="./assets/images/shoes-10.jpg" class="img-fluid">
                             <article class="produtos-itens">
                                 <p class="produtos-titulo">TÊNIS NIKE SPORT LIFE</p>
                               
                                 <b class="preco">R$99,90</b>
                                 <div class="d-grid gap-2">
-                                    <button class="btn btn-primary" type="button">COMPRAR</button>
+                                    <button class="btn-comprar" type="button">COMPRAR</button>
                                 </div>
                             </article>
                             </section>
-                            <section class="produtos col">
-                                <img src="./assets/images/shoes-3.jpg" style="width: 150px;" class="img-fluid" alt="camiseta listrada">
+                            <section class="produtos">
+                                <img src="./assets/images/shoes-3.jpg" class="img-fluid">
                             <article class="produtos-itens">
                                 <p class="produtos-titulo">SAPATO SOCIAL <br>DELUXE ROXO</p>
                                
                                 <b class="preco">R$399,90</b>
                                 <div class="d-grid gap-2">
-                                    <button class="btn btn-primary" type="button">COMPRAR</button>
+                                    <button class="btn-comprar" type="button">COMPRAR</button>
                                 </div>
                             </article>
                             </section>
-                            <section class="produtos col ">
-                                <img src="./assets/images/shoes-4.jpg" style="width: 150px;" class="img-fluid" alt="saia plisada">
+                            <section class="produtos">
+                                <img src="./assets/images/shoes-4.jpg" class="img-fluid">
                             <article class="produtos-itens">
                                 <p class="produtos-titulo">TÊNIS CASUAL KEDS</p>
                                
                                 <b class="preco">R$89,90</b>
                                 <div class="d-grid gap-2">
-                                    <button class="btn btn-primary" type="button">COMPRAR</button>
+                                    <button class="btn-comprar" type="button">COMPRAR</button>
                                 </div>
                             </article>
                             </section>
-                            <section class="produtos col ">
-                                <img src="./assets/images/shoes-5.jpg" style="width: 150px;" class="img-fluid" alt="saia plisada">
+                            <section class="produtos">
+                                <img src="./assets/images/shoes-5.jpg" class="img-fluid">
                             <article class="produtos-itens">
                                 <p class="produtos-titulo">TÊNIS CASUAL KEDS</p>
                                
                                 <b class="preco">R$89,90</b>
                                 <div class="d-grid gap-2">
-                                    <button class="btn btn-primary" type="button">COMPRAR</button>
+                                    <button class=" btn-comprar" type="button">COMPRAR</button>
                                 </div>
                             </article>
                             </section>
-                            <section class="produtos col ">
-                                <img src="./assets/images/shoes-6.jpg" style="width: 150px;" class="img-fluid" alt="saia plisada">
+                            <section class="produtos">
+                                <img src="./assets/images/shoes-6.jpg" class="img-fluid">
                             <article class="produtos-itens">
                                 <p class="produtos-titulo">TÊNIS CASUAL KEDS</p>
                                
                                 <b class="preco">R$89,90</b>
                                 <div class="d-grid gap-2">
-                                    <button class="btn btn-primary" type="button">COMPRAR</button>
+                                    <button class=" btn-comprar" type="button">COMPRAR</button>
                                 </div>
                             </article>
                             </section>
-                            <section class="produtos col ">
-                                <img src="./assets/images/shoes-7.jpg" style="width: 150px;" class="img-fluid" alt="saia plisada">
+                            <section class="produtos">
+                                <img src="./assets/images/shoes-7.jpg" class="img-fluid">
                             <article class="produtos-itens">
                                 <p class="produtos-titulo">TÊNIS CASUAL KEDS</p>
                                
                                 <b class="preco">R$89,90</b>
                                 <div class="d-grid gap-2">
-                                    <button class="btn btn-primary" type="button">COMPRAR</button>
+                                    <button class=" btn-comprar" type="button">COMPRAR</button>
                                 </div>
                             </article>
                             </section>
-                            <section class="produtos col ">
-                                <img src="./assets/images/shoes-8.jpg" style="width: 150px;" class="img-fluid" alt="saia plisada">
+                            <section class="produtos">
+                                <img src="./assets/images/shoes-8.jpg" class="img-fluid">
                             <article class="produtos-itens">
                                 <p class="produtos-titulo">TÊNIS CASUAL KEDS</p>
                                
                                 <b class="preco">R$89,90</b>
                                 <div class="d-grid gap-2">
-                                    <button class="btn btn-primary" type="button">COMPRAR</button>
+                                    <button class=" btn-comprar" type="button">COMPRAR</button>
                                 </div>
                             </article>
                             </section>
@@ -248,20 +247,16 @@
             </section>
         </section>
 
-                <nav aria-label="Page navigation">
+                <nav aria-label="">
                     <ul class="pagination justify-content-center">
-                        <li class="page-item">
-                            <a class="page-link" href="#" aria-label="Previous">
-                            <span aria-hidden="true">&laquo;</span>
-                            </a>
+                        <li>
+                            <a href="#" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a>
                         </li>
-                        <li class="page-item"><a class="page-link" href="#">1</a></li>
-                        <li class="page-item"><a class="page-link" href="#">2</a></li>
-                        <li class="page-item"><a class="page-link" href="#">3</a></li>
-                        <li class="page-item">
-                            <a class="page-link" href="#" aria-label="Next">
-                            <span aria-hidden="true">&raquo;</span>
-                            </a>
+                        <li><a href="#">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li>
+                            <a href="#" aria-label="Next"><span aria-hidden="true">&raquo;</span></a>
                         </li>
                     </ul>
                 </nav>
@@ -272,9 +267,7 @@
             
         </section>
     </footer>
-    <script src="./assets/js/bootstrap.js" ></script>
     <script src="./assets/js/jquery.js" ></script>
     <script src="./assets/js/popper.js" ></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>

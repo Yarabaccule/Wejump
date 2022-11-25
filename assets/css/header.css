@@ -8,12 +8,10 @@ header acess{
 
 header input{
         background-color: white;
-        width: 300px;
         border: 1px solid #959595;
         padding: 10px 20px;
-        border-radius:none !important;
-        width:414px;
-        height:44px;
+        border-radius:none;
+        width:350px;
 }
 
 header button{
@@ -29,20 +27,22 @@ header img{
     width:160px
 }
 
-@media screen and (max-width: 990px){
-    header img{
-        width:60%
+@media screen and (max-width: 850px){
+    header input{
+        width:200px
     }
 
 }
 
-@media screen and (max-width: 550px){
-
+@media screen and (max-width: 700px){
+    header input{
+        display:none
+    }
     header button{
         display:none
     }
 
-    header input{
-        display:none
+    .logo{
+    width:80%    
     }
 }
