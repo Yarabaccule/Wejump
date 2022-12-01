@@ -189,27 +189,6 @@ justify-content:space-between
     margin:5px
 }
 
-.cor-vermelha{
-    background-color:#CB0D1F !important;
-    width:40px;
-    height: 24px;
-    border:none !important;
-}
-
-.cor-laranja{
-    background-color:#F26324 !important;
-    width:40px;
-    height: 24px;
-    border:none !important;
-}
-
-.cor-verde-agua{
-    background-color:#27A3A9 !important;
-    width:40px;
-    height: 24px;
-    border:none !important;
-}
-
 .produtos-inicio{
     font-size: 32px;
     color: #ED1A39;
