@@ -1,3 +1,37 @@
+.produto-cores button{
+    margin-right:5px
+}
+
+.cor-cinza{
+    background-color:lightgray !important;
+    width:40px;
+    height: 24px;
+    border:1px solid gray;
+    cursor:pointer;
+    border-radius:5px;
+
+}
+
+.cor-azul-escuro{
+    background-color:darkblue !important;
+    width:40px;
+    height: 24px;
+    border:1px solid gray;
+    cursor:pointer;
+    border-radius:5px;
+
+}
+	
+.cor-khaki{
+    background-color:#F0E68C !important;
+    width:40px;
+    height: 24px;
+    border:1px solid gray;
+    cursor:pointer;
+    border-radius:5px;
+
+}
+
 .cor-vermelha{
     background-color:#CB0D1F !important;
     width:40px;
@@ -7,6 +41,7 @@
     border-radius:5px;
 
 }
+
 .cor-rosa{
     background-color:pink !important;
     width:40px;
@@ -18,7 +53,7 @@
 }
 
 .cor-preto{
-    background-color:gray !important;
+    background-color:black !important;
     width:40px;
     height: 24px;
     border:1px solid gray;

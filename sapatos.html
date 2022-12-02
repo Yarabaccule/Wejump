@@ -97,22 +97,25 @@
                 <article class="col-md-3 menu-2">
                     <h1>FILTRE POR</h1>
                     <h2>CATEGORIAS</h2>
-                    <a href="#">• Roupas</a><br>
-                    <a href="#">• Sapatos </a><br>
-                    <a href="#">• Acessórios </a><br>
+                    <a href="./camisetas.html">• Camisetas</a><br>
+                    <a href="./sapatos.html">• Sapatos </a><br>
+                    <a href="./calcas.html">• Calças </a><br>
                     <h2>CORES</h2>
-                    <section class="sapato-cores"> 
+                    <section class="produto-cores"> 
                         <div class="btn-toolbar">
                             <div class="btn-group">
-                              <button type="button" class="cor-vermelha"></button>
+                                <button type="button" class="cor-incolor" id="menu" >X</button>
                             </div>
                             <div class="btn-group">
-                                <button type="button" class="cor-laranja"></button>
-                              </div>
-                              <div class="btn-group">
-                                <button type="button" class="cor-verde-agua"></button>
-                              </div>
-                          </div>
+                                <button type="button" class="cor-preto" local="preto" ></button>
+                            </div>
+                            <div class="btn-group">
+                                <button type="button" class="cor-rosa" local="rosa" ></button>
+                            </div>
+                            <div class="btn-group">
+                                <button type="button" class="cor-cinza" local="cinza" ></button>
+                            </div>
+                        </div>
                     </section>
                     <h2>TIPO</h2>
                     <a href="#">• Corrida</a><br>
@@ -153,7 +156,7 @@
                         </section>
                         <center>
                         <article class="row row-cols ">
-                            <section class="produtos">
+                            <section class="produtos" tipo="preto">
                                 <img src="./assets/images/shoes-1.jpg" class="img-fluid">
                             <article class="produtos-itens">
                                 <p class="produtos-titulo">TÊNIS ADIDAS</p>
@@ -164,7 +167,7 @@
                                 </div>
                             </article>
                             </section>
-                            <section class="produtos">
+                            <section class="produtos" tipo="cinza">
                                 <img src="./assets/images/shoes-10.jpg" class="img-fluid">
                             <article class="produtos-itens">
                                 <p class="produtos-titulo">TÊNIS NIKE SPORT LIFE</p>
@@ -175,7 +178,7 @@
                                 </div>
                             </article>
                             </section>
-                            <section class="produtos">
+                            <section class="produtos" tipo="preto">
                                 <img src="./assets/images/shoes-3.jpg" class="img-fluid">
                             <article class="produtos-itens">
                                 <p class="produtos-titulo">SAPATO SOCIAL <br>DELUXE ROXO</p>
@@ -186,7 +189,7 @@
                                 </div>
                             </article>
                             </section>
-                            <section class="produtos">
+                            <section class="produtos" tipo="preto">
                                 <img src="./assets/images/shoes-4.jpg" class="img-fluid">
                             <article class="produtos-itens">
                                 <p class="produtos-titulo">TÊNIS CASUAL KEDS</p>
@@ -197,7 +200,7 @@
                                 </div>
                             </article>
                             </section>
-                            <section class="produtos">
+                            <section class="produtos" tipo="preto">
                                 <img src="./assets/images/shoes-5.jpg" class="img-fluid">
                             <article class="produtos-itens">
                                 <p class="produtos-titulo">TÊNIS CASUAL KEDS</p>
@@ -208,7 +211,7 @@
                                 </div>
                             </article>
                             </section>
-                            <section class="produtos">
+                            <section class="produtos" tipo="preto">
                                 <img src="./assets/images/shoes-6.jpg" class="img-fluid">
                             <article class="produtos-itens">
                                 <p class="produtos-titulo">TÊNIS CASUAL KEDS</p>
@@ -219,7 +222,7 @@
                                 </div>
                             </article>
                             </section>
-                            <section class="produtos">
+                            <section class="produtos" tipo="rosa">
                                 <img src="./assets/images/shoes-7.jpg" class="img-fluid">
                             <article class="produtos-itens">
                                 <p class="produtos-titulo">TÊNIS CASUAL KEDS</p>
@@ -230,7 +233,7 @@
                                 </div>
                             </article>
                             </section>
-                            <section class="produtos">
+                            <section class="produtos" tipo="rosa">
                                 <img src="./assets/images/shoes-8.jpg" class="img-fluid">
                             <article class="produtos-itens">
                                 <p class="produtos-titulo">TÊNIS CASUAL KEDS</p>
@@ -269,7 +272,6 @@
     </footer>
 
 
-    <script src="./assets/js/jquery.js" ></script>
-    <script src="./assets/js/popper.js" ></script>
+    <script src="./assets/js/produtos-cor.js" ></script>
 </body>
 </html>

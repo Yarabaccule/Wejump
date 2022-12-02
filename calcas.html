@@ -97,22 +97,26 @@
                 <article class="col-md-3 menu-2">
                     <h1>FILTRE POR</h1>
                     <h2>CATEGORIAS</h2>
-                    <a href="#">• Roupas</a><br>
-                    <a href="#">• Sapatos </a><br>
-                    <a href="#">• Acessórios </a><br>
+                    <a href="./camisetas.html">• Camisetas</a><br>
+                    <a href="./sapatos.html">• Sapatos </a><br>
+                    <a href="./calcas.html">• Calças </a><br>
                     <h2>CORES</h2>
-                    <section class="sapato-cores"> 
+                    <section class="produto-cores"> 
                         <div class="btn-toolbar">
                             <div class="btn-group">
-                              <button type="button" class="cor-vermelha"></button>
+                                <button type="button" class="cor-incolor" id="menu" >X</button>
                             </div>
                             <div class="btn-group">
-                                <button type="button" class="cor-laranja"></button>
-                              </div>
-                              <div class="btn-group">
-                                <button type="button" class="cor-verde-agua"></button>
-                              </div>
-                          </div>
+                                <button type="button" class="cor-preto" local="preto" ></button>
+                            </div>
+                            <div class="btn-group">
+                                <button type="button" class="cor-azul-escuro" local="azul" ></button>
+                            </div>
+                            <div class="btn-group">
+                                <button type="button" class="cor-khaki" local="khaki" ></button>
+                            </div>
+
+                        </div>
                     </section>
                     <h2>TIPO</h2>
                     <a href="#">• Corrida</a><br>
@@ -153,32 +157,32 @@
                         </section>
                         <center>
                         <article class="row row-cols ">
-                            <section class="produtos">
+                            <section class="produtos" tipo="khaki">
                                 <img src="./assets/images/pants-1.jpg" class="img-fluid img-calca">
                             <article class="produtos-itens">
-                                <p class="produtos-titulo">TÊNIS ADIDAS</p>
+                                <p class="produtos-titulo">CALÇA KHAKI</p>
                             
-                                <b class="preco">R$299,90</b>
+                                <b class="preco">R$199,90</b>
                                 <div class="d-grid gap-2">
                                     <button class="btn-comprar" type="button">COMPRAR</button>
                                 </div>
                             </article>
                             </section>
-                            <section class="produtos">
+                            <section class="produtos" tipo="azul">
                                 <img src="./assets/images/pants-2.jpg" class="img-fluid img-calca">
                             <article class="produtos-itens">
-                                <p class="produtos-titulo">TÊNIS NIKE SPORT LIFE</p>
+                                <p class="produtos-titulo">CALÇA AZUL</p>
                               
-                                <b class="preco">R$99,90</b>
+                                <b class="preco">R$259,90</b>
                                 <div class="d-grid gap-2">
                                     <button class="btn-comprar" type="button">COMPRAR</button>
                                 </div>
                             </article>
                             </section>
-                            <section class="produtos">
+                            <section class="produtos" tipo="preto">
                                 <img src="./assets/images/pants-3.jpg" class="img-fluid img-calca">
                             <article class="produtos-itens">
-                                <p class="produtos-titulo">SAPATO SOCIAL <br>DELUXE ROXO</p>
+                                <p class="produtos-titulo">CALÇA PRETA</p>
                                
                                 <b class="preco">R$399,90</b>
                                 <div class="d-grid gap-2">
@@ -186,10 +190,10 @@
                                 </div>
                             </article>
                             </section>
-                            <section class="produtos">
+                            <section class="produtos" tipo="preto">
                                 <img src="./assets/images/pants-4.jpg" class="img-fluid img-calca">
                             <article class="produtos-itens">
-                                <p class="produtos-titulo">TÊNIS CASUAL KEDS</p>
+                                <p class="produtos-titulo">CALÇA PRETA</p>
                                
                                 <b class="preco">R$89,90</b>
                                 <div class="d-grid gap-2">
@@ -197,10 +201,10 @@
                                 </div>
                             </article>
                             </section>
-                            <section class="produtos">
+                            <section class="produtos" tipo="preto">
                                 <img src="./assets/images/pants-5.jpg" class="img-fluid img-calca">
                             <article class="produtos-itens">
-                                <p class="produtos-titulo">TÊNIS CASUAL KEDS</p>
+                                <p class="produtos-titulo">CALÇA PRETA</p>
                                
                                 <b class="preco">R$89,90</b>
                                 <div class="d-grid gap-2">
@@ -237,7 +241,6 @@
             
         </section>
     </footer>
-    <script src="./assets/js/jquery.js" ></script>
-    <script src="./assets/js/popper.js" ></script>
+    <script src="./assets/js/produtos-cor.js" ></script>
 </body>
 </html>
